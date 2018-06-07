@@ -13,6 +13,7 @@ class Dog
     @breed = breed
     if breed == " "
       @breed = "Mutt"
+    end
   end
   def breed(breed)
     @breed
